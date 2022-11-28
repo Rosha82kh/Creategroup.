@@ -1,0 +1,194 @@
+
+
+.groups {
+    width: 20%;
+    font-family: bold;
+    background-color:burlywood;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 2px salmon;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    position:relative;
+
+
+}
+.formgr {
+
+    align-items:center;
+    border: 2px rebeccapurple;
+    justify-content:space-between;
+    position:relative;
+
+}
+.groups :hover{
+    background:salmon;
+}
+.regForm {
+    display:flex;
+    font-family: bold;
+    font-size: 18px;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 80px;
+    background:white;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+.groupInner{
+    display:flex;
+    width: 25%;
+    color: white;
+    position: absolute;
+    font-family: bold;
+    font-size: 18px;
+    align-items:stretch;
+    justify-content:space-between;
+    padding:20px 80px;
+    background:salmon;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+.listgroup{
+    list-style-position: outside;
+ }
+.form__button:hover{
+    background:salmon;
+
+}
+body{
+    margin: 20px 0;
+    padding: 20px 0 ;
+    align-items: center;
+  }
+
+#header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 80px;
+    background:white;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+#navbar{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:18px;
+
+}
+#navbar li{
+    list-style:none;
+    padding:0 20px;
+    position:relative;
+
+}
+#navbar li a {
+    text-decoration: none;
+    font-size:16px;
+    color:#1a1a1a;
+    transition:0.3s ease;
+
+}
+#navbar li a:hovr,
+#navbar li a:active{
+    color:salmon;
+
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content:'';
+    width:30%;
+    height:2px;
+    background:salmon;
+    position:absolute;
+    bottom:-4px;
+    left:20px;
+}
+body{
+    font-family: -apple-system;
+    text-align: center;
+}
+
+.crud{
+    width: 80%;
+    margin: auto;
+}
+.head{
+text-align: center}
+
+.inputs input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    background:  #eeeeee;
+    margin: 4px 0;
+    border-radius: 4px;
+    color: white;
+    font-family: bold;
+    border-color: salmon;
+
+
+ }
+.inputs :focus{
+    background: darksalmon;
+ }
+.participants input{
+ width: 20%;
+}
+#total{
+    background: darksalmon;
+    padding: 5px 2px;
+    border-radius: 4px;
+    color: white;
+
+}
+#total :before{
+    content-visibility: auto;
+    content: "Total:";
+ }
+button{
+    width: 100%;
+    height: 30px;
+    margin: 20px 0;
+    border:none;
+    cursor: pointer;
+    background: lightsalmon;
+    color: white;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+button :hover{
+    background: darksalmon;
+    letter-spacing: 1px;
+}
+.btnSearch{
+    display: flex;
+    justify-content: space-between;
+}
+.btnSearch button{
+    width: 45%;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    border-collapse: collapse;
+    border: 1px darksalmon;
+
+}
+table th {
+    text-transform: uppercase;
+ }
+  th, td {
+padding: 5px
+  }
+.search input{
+    width: 100%;
+    margin: 15px 0;
+}
+.deleteAll{
+    margin: 20px 0;
+}

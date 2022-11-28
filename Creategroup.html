@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <link rel="stylesheet" href="Creategroup.css">
+     <title>Creategroup</title>
+
+
+<body>
+<section id="header">
+    <a href="#"><img src="Sbfslogo.png" class="logo" alt="" width=100 height=100></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="creategroup.html">Create Group</a></li>
+            <li><a href="singleGroup.html">singleGroup</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html">Conact us</a></li>
+            <li><a href="login.html" ><img src="LoginN.png" class="login" alt="" width=100 height=100></a></li>
+
+        </ul>
+    </div>
+</section>
+<div id="crud" class="crud">
+<head id="head" class="head">
+    <h1>CREATE GROUP</h1>
+    <P>GROUP MANAGEMENT SYSTEM</P>
+</head>
+ <div id="inputs" class="inputs">
+        <input placeholder="Name of group" type="text" id="Ngroup">
+        <div class="participants">
+            <input placeholder="number of participants" type="number" id="participantsNumber">
+            <input onkeyup="getTotal()" placeholder="balance" type="number" id="balance">
+            <input placeholder="category" type="text" id="category">
+            <small id="total">Total:</small>
+            <button type="submit" id="btnCreate" >create group</button>
+
+        </div>
+    </div>
+    <div class="outputs">
+        <div class="search" >
+            <input type="text" id="search" placeholder="Search">
+            <div class="btnSearch">
+                <button id="searchTitle">Search by Title</button>
+                <button id="searchyCategory">Search by Category</button>
+            </div>
+        </div>
+        <div id="deleteAll"></div>
+        <table>
+            <tr>
+                <th>id</th>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Balance</th>
+                <th>Group Number</th>
+                <th>total</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+
+            <tbody id="tbody">
+
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
+<script src="Creategroup.js"></script>
+</body>
+</html>

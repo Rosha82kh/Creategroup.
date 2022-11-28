@@ -1,0 +1,215 @@
+body{
+    margin: 20px 0;
+    padding: 20px 0 ;
+    align-items: center;
+    text-align: center;
+    font-family: -apple-system;
+    align-items: center;
+}
+
+#header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 80px;
+    background:white;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+#navbar{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:18px;
+
+}
+#navbar li{
+    list-style:none;
+    padding:0 20px;
+    position:relative;
+
+}
+#navbar li a {
+    text-decoration: none;
+    font-size:16px;
+    color:#1a1a1a;
+    transition:0.3s ease;
+
+}
+#navbar li a:hovr,
+#navbar li a:active{
+    color:salmon;
+
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content:'';
+    width:30%;
+    height:2px;
+    background:salmon;
+    position:absolute;
+    bottom:-4px;
+    left:20px;
+}
+#groupDetails{
+    display: flex;
+    margin-top: 20px;
+
+}
+#groupDetails .singleImg{
+    width: 25%;
+    margin-right: 50px;
+    border-radius: 4px;
+    border-color: salmon;
+    border-color: rebeccapurple;
+}
+.memberImgGroup{
+    display: flex;
+    justify-content: space-between;
+}
+.memberImgCol{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#hero{
+    background-image: url("friends.jpg");
+    height: 90vh;
+    width: 100%;
+    margin: 10px 0;
+    flex: fit-content;
+    background-position:top 25% right 0;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+
+
+}
+#hero h4{
+   padding-bottom: 1px;
+}
+#hero h2{
+    color: salmon;
+    font-size: 26px;
+
+}
+
+#hero h1{
+    color: yellowgreen;
+ }
+#hero button{
+    background-color: salmon;
+     border: 4px white;
+    color:white;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    text-align: center;
+    width: 10%;
+
+}
+
+
+.groupHead{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 80px;
+    background:white;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.navList{
+    border-color:#cc3333;
+    width: 100%;
+    align-items:center;
+    justify-content:center;
+    font-size:25px;
+    display: flex;
+
+
+}
+.navList li{
+    width: 100%;
+    padding:0 20px;
+    position:relative;
+    display: block;
+    justify-content: space-between;
+    font-size: 50px;
+
+
+
+}
+
+.navList li button:hovr,
+.navList li button:active{
+    color:salmon;
+
+}
+
+.navList li a.active::after,
+.navList li a:hover::after{
+    content:'';
+    width:30%;
+    height:2px;
+    background:salmon;
+    position:absolute;
+    bottom:-4px;
+    left:20px;
+}
+div {
+    display: inline-block;
+}
+
+
+.inputs  form {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    background:  #eeeeee;
+    margin: 4px 0;
+    border-radius: 4px;
+    color: white;
+    font-family: bold;
+    border-color: salmon;
+
+
+}
+ button{
+    width: 35%;
+    height: 30px;
+    margin: 20px 0;
+    border:none;
+    cursor: pointer;
+    background: lightsalmon;
+    color: white;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.btnHomeCreate{
+    width: 25%;
+    background: #cc3333;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    border-collapse: collapse;
+    border: 1px darksalmon;
+
+}
+table th {
+    text-transform: uppercase;
+}
+th, td {
+    padding: 5px
+}
+.btnNewUser{
+    align-items: center;
+    position: center;
+    background: darksalmon;
+}

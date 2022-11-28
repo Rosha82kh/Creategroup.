@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="Home.css">
+    <title>Creategroup</title>
+</head>
+
+<body>
+<section id="header">
+    <a href="#"><img src="Sbfslogo.png" class="logo" alt="" width=100 height=100></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="creategroup.html">Create Group</a></li>
+            <li><a href="singleGroup.html">singleGroup</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html">Conact us</a></li>
+            <li><a href="login.html" ><img src="LoginN.png" class="login" alt="" width=100 height=100></a></li>
+
+        </ul>
+    </div>
+</section>
+<section>
+          <h1>Name of Group</h1>
+          <div id="adduser">
+            <form id="inputs">
+                <input placeholder="name" id="userName" type="text">
+                <input placeholder="owed" id="userOwed" type="number">
+                <input placeholder="paid" id="userPaid" type="number">
+                <button id="btnNewUser" class="normal">add new member</button>
+            </form>
+          </div>
+
+
+</section>
+
+<section id="groupTable" class="container">
+      <table>
+         <tr>
+            <td>Name</td>
+            <td>Owed</td>
+            <td>Paid</td>
+            <th>total</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+         <tbody id="tbody">
+
+
+        </tbody>
+    </table>
+  </section>
+
+
+
+
+
+<script src="Home.js"></script>
+</body>
+</html>
