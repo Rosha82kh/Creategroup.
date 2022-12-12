@@ -52,6 +52,15 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+//https://localhost:8080/api/Auth/Register
+async function get(){
+    const response= await fetch("https://localhost:8080/swagger/index.html")
+    const data=await response.json()
+    console.log(data)
+}
+get()
+
+
 /*
 // use https://www.postman.com/ to try the code and recieve token
 //download packages => nodemon +express+jsonwebtoken
@@ -124,4 +133,5 @@ app.post('/api/login', (req,res)=>{
 
 
 */
+
 
