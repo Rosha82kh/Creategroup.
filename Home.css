@@ -162,7 +162,8 @@ body{
     left:20px;
 }
 div {
-    display: inline-block;
+    display: block;
+    width: 100%;
 }
 
 
@@ -209,6 +210,12 @@ th, td {
     padding: 5px
 }
 .btnNewUser{
+    align-items: center;
+    position: center;
+    background: darksalmon;
+}
+.deleteAll {
+    width: 30%;
     align-items: center;
     position: center;
     background: darksalmon;
